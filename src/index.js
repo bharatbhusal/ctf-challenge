@@ -5,6 +5,8 @@ import {
 
 // Importing the main App component from the "./App" file
 import App from "./App"
+
+//Importing styles for the app.
 import './index.css'
 
 // Getting the DOM element with the id "root"
