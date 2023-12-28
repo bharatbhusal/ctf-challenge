@@ -1,0 +1,56 @@
+/* Importing Poppins font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* Resetting default styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* HTML and body styles */
+html {
+  scroll-behavior: smooth;
+}
+/* Removing scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Body styles */
+body > div {
+  font-family: "Poppins", sans-serif;
+  background: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+  background-size: 3%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(198, 223, 237);
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+button {
+  width: 10rem;
+  height: 3rem;
+  background-color: rgb(132, 203, 78);
+  border-radius: 1rem;
+  font-size: 1.3rem;
+}
+
+button:hover {
+  background-color: rgb(67, 116, 29);
+}
